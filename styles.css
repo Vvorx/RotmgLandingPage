@@ -4,8 +4,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: darkslateblue;
     text-decoration: none;
+}
+
+body {
+    background-color: darkslateblue;
 }
 
 li, a {
@@ -19,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 10%;
+    padding: 8px 10%;
     background-color: #1f1e1e;
 }
 
