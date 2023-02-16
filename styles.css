@@ -14,3 +14,11 @@ li, a {
     font-size: 16px;
     color: whitesmoke;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #1f1e1e;
+}
