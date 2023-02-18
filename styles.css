@@ -51,7 +51,7 @@ header {
     display: flex;
     align-items: center;
     background-color: #252424;
-    padding: 70px 11%;
+    padding: 50px 11%;
     justify-content: space-between;
 }
 
@@ -77,6 +77,41 @@ header {
 
 .herobutton:hover {
     background-color: #5c5858;
+}
+
+.infoheader {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 11%;
+}
+
+.info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px 11%;
+}
+
+.baginfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+}
+
+.bagimg {
+    width: 100px;
+    background-color: #1f1e1e;
+    border: #363434;
+    border-radius: 16px;
+    margin: 5%;
+}
+
+.pbag {
+    font-size: 12px;
+    font-weight: bold;
 }
 
 h1 {
