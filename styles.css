@@ -51,7 +51,8 @@ header {
     display: flex;
     align-items: center;
     background-color: #252424;
-    padding: 70px 10%;
+    padding: 70px 11%;
+    justify-content: space-between;
 }
 
 .heroheading {
@@ -67,6 +68,11 @@ header {
     font-size: 14px;
     border: none;
     cursor: pointer;
+}
+
+.heroimg {
+    border: #1f1e1e;
+    border-radius: 16px;
 }
 
 .herobutton:hover {
