@@ -11,7 +11,7 @@ body {
     background-color: darkslateblue;
 }
 
-li, a ,h1, p {
+li, a ,h1, p, button{
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -57,6 +57,20 @@ header {
 .heroheading {
     display: flex;
     flex-direction: column;
+}
+
+.herobutton {
+    width: 70px;
+    height: 30px;
+    background-color: #363434;
+    color: whitesmoke;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.herobutton:hover {
+    background-color: #5c5858;
 }
 
 h1 {
