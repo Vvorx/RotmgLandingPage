@@ -11,7 +11,7 @@ body {
     background-color: darkslateblue;
 }
 
-li, a {
+li, a ,h1, p {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -45,4 +45,20 @@ header {
 
 .nav_links li a:hover {
     color: darkslateblue;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    background-color: #252424;
+    padding: 70px 10%;
+}
+
+.heroheading {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 28px;
 }
