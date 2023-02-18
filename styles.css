@@ -90,7 +90,7 @@ header {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 15px 11%;
+    padding: 15px 11% 3%;
 }
 
 .baginfo {
@@ -117,3 +117,19 @@ header {
 h1 {
     font-size: 28px;
 }
+
+.quote {
+    background-color: rgb(84, 71, 170);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 11%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 31px 10%;
+    background-color: #1f1e1e;
+}
+
